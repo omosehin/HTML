@@ -1,0 +1,112 @@
+.form_Container {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  margin: 0 auto;
+  height: 400px;
+  margin-top: 100px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  /* border-radius:50%; */
+}
+.card-1 {
+  width: 15%;
+  background: rgb(201, 198, 198);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+.card-2 {
+  padding: 1px;
+  width: 85%;
+  background: rgb(255, 255, 255);
+  color: black;
+}
+.subcard-1 {
+  display: flex;
+  flex-direction: row;
+  padding-left:10px;
+  padding-right:10px;
+  
+}
+.DetailHeading {
+  text-align: center;
+}
+form {
+  width: 90%;
+  margin: 20px;
+}
+.topInput {
+  width: 100%;
+  align-items: center;
+  float: center;
+  text-align: center;
+  margin: 0 auto;
+}
+input.topInput {
+  width: 100%;
+  margin-top: 10px;
+}
+.topInput2 {
+  display: flex;
+  justify-content: space-between;
+}
+input.topInput2 {
+  width: 50%;
+}
+input {
+  height: 35px;
+  width: 100%;
+  border-radius: 7%;
+  margin-top: 20px;
+}
+input::submit {
+  border: none;
+  background-color: aqua;
+}
+.email {
+  margin-top: -20px;
+}
+.pay {
+  color: green;
+  font-weight: bolder;
+  float:right
+}
+/* span{
+    float:right
+} */
+.test {
+  text-align: center;
+  width: 15%;
+  margin: 0 auto;
+  background: rgb(255, 166, 0);
+  margin-top: -9px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.button {
+  width: 100%;
+}
+/* SECTION 1 */
+.cardLogo {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  margin-top: 20px;
+}
+.input[type="submit"] {
+  color: white;
+  background: green !important;
+}
+.button {
+  background: green;
+  height: 35px;
+  width: 100%;
+  border-radius: 7%;
+  margin-top: 20px;
+  border-style: none;
+  color: white;
+}
